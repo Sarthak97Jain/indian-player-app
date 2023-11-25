@@ -32,11 +32,13 @@ const PlayerComp= () => {
           <div className="check heading">
             <h2>INDIA Playing 11</h2>
           </div>
-          {allPlayers.players?.map((player) => (
-            <li className="check">
-              {player?.name} {player?.jersey}
-            </li>
-          ))}
+          <div className="player-names-div">
+            {allPlayers.players?.map((player) => (
+              <li className="check">
+                {player?.name} {player?.jersey}
+              </li>
+            ))}
+          </div>
           <form onSubmit={submitHandler}>
             <h3>Search Player based on Batting order 1 to 11</h3>
             <div style={{"display": "flex"}}>
