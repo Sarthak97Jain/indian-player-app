@@ -1,0 +1,15 @@
+.stat-parent{
+    color: white;
+    margin-bottom: 2rem;
+}
+.stats-heading{
+    margin-bottom: 3px ;
+    padding-left: 1rem ; 
+    background-color: #606468;
+    border-radius: 5px;
+    padding: 0.5rem 0rem 0.5rem 1rem;
+}
+h5{
+    padding-left: 1rem;
+}
+
