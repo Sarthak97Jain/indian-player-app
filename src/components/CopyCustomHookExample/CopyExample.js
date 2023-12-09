@@ -24,7 +24,9 @@ const CopyExample = () => {
 
   return (
     <div className="parent-copy">
-      <div>CopyExample</div>
+      <h2 style={{ color: "#2255A4" }} className="heading">
+        Copy Example
+      </h2>
       <div className="player">
         <p id="1">Virat Kohli</p>
         <button className="btn" onClick={() => handleClick("1")}>
@@ -49,7 +51,10 @@ const CopyExample = () => {
           {buttonStates["4"] ? "copied" : "copy"}
         </button>
       </div>
-      <input type="text" placeholder="Check by pasting here"></input>
+      <div className="paste-area">
+        <h3>Check by pasting here</h3>
+        <input style={{marginBottom: '5px'}}type="text"></input>
+      </div>
     </div>
   );
 };
