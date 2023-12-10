@@ -9,7 +9,7 @@ const PlayerComp= () => {
     const [returnPlayer , setReturnPlayer] =useState({name: '', battingNum: 0}); 
     let string =''; 
     console.log(returnPlayer); 
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
     
     // const addPlayer = () =>{ // return { // type: "ADD_PLAYER", // payload: { // name: "Virat Kohli", // jersey: 18, // } // } // } 
     const submitHandler = (event) => {
