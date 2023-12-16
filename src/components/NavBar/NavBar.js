@@ -1,24 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
+import { NavBarContent } from "../library/constants";
 
-const NavBarContent = [
-    {
-        key: "india",
-        path: "/",
-        text: "India 11",
-    },
-    {
-        key: "swap",
-        path: "/swap",
-        text: "Swap Players",
-    },
-    {
-        key: "copy",
-        path: "/copy",
-        text: "Copy Players",
-    }
-];
 const NavBar = () => {
   return (
     <div className="Navbar">
