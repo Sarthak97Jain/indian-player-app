@@ -33,8 +33,8 @@ const PlayerComp= () => {
             <h2>INDIA Playing 11</h2>
           </div>
           <div className="player-names-div">
-            {allPlayers.players?.map((player) => (
-              <li className="check">
+            {allPlayers.players?.map((player, index) => (
+              <li className="check" key={index}>
                 {player?.name} {player?.jersey}
               </li>
             ))}
