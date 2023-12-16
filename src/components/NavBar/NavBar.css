@@ -1,0 +1,14 @@
+.Navbar{
+    background-color: #D6B268;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: larger;
+        font-family: monospace
+}
+.active{
+    color: white;
+}
+.passive{
+    color: black;
+}
